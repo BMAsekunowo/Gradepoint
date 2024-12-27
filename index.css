@@ -4,13 +4,19 @@
     box-sizing: border-box;
 }
 
-.container {
+.wrapper {
     margin-right: 0;
     margin-left: 0;
     width: 100%;
+    height: 100vh;
+    /* background-image: linear-gradient(to right, #0e6efd, #159957); */
+}
+
+nav {
     background-image: linear-gradient(to right, #0e6efd, #159957);
 }
 
+/* Codes for the floating boxes animation */
 .objects {
     background: linear-gradient(to right, #159957, #155799);
     width: 100%;
