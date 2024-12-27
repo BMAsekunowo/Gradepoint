@@ -30,6 +30,18 @@ nav {
     border-radius: 30%;
 }
 
+.formcont {
+    width: 60%;
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 20%;
+    margin-right: 20%;
+    border: 5px linear-gradient(to right, #159957, #fff) solid;
+    box-shadow: #ffffffa2 5px 5px 5px 5px;
+    border-radius: 30%;
+}
+
 /* Codes for the floating boxes animation */
 .objects {
     background: linear-gradient(to right, #159957, #155799);
