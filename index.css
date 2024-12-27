@@ -9,7 +9,12 @@
     margin-left: 0;
     width: 100%;
     height: 100vh;
-    /* background-image: linear-gradient(to right, #0e6efd, #159957); */
+    background-image: linear-gradient(to right, #0e6efd, #159957);
+    transition-duration: 3s;
+}
+
+.wrapper:hover{
+    background-image: linear-gradient(to right, #159957, #0e6efd);
 }
 
 nav {
