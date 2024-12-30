@@ -21,9 +21,23 @@
         </nav>
 
         <div class="formwrap">
-            <div class="m-5 formcont">
+            <h1 class="fs-4 color-black text-center fw-bold my-2">Grade<span>Point</span></h1>
+                <label for="entername" class="fs-5 my-1">
+                    Enter Candidate Name:
+                </label>
+                <br>
+                <input type="text" id="entername" class="formi" required>
+                <br>
+                <label for="enterscore" class="fs-5 my-1">
+                    Enter Score:
+                </label>
+                <br>
+                <input type="text" id="enterscore" class="formi" required>
                 
-            </div>
+                <div class="b">
+                    <button class="my-2 formb" onclick="calCulate()">Cancel</button><br>
+                    <button class="my-2 formb" onclick="calCulate()">Get Grade</button>
+                </div>
         </div>
     </div>
 
