@@ -11,7 +11,7 @@
     
 <body>
     <div class="px-5 wrapper">
-        <nav class="d-flex px-5 py-3 align-items-center justify-content-center">
+        <nav class="d-flex px-5 py-3 align-items-center justify-content-center shadow">
             <ul class="d-flex list-unstyled gap-5 align-items-center justify-content-center fs-5 fw-bold">
                 <li>Home</li>
                 <li>Scholarship</li>
@@ -21,21 +21,24 @@
         </nav>
 
         <div class="formwrap">
-            <h1 class="fs-4 color-black text-center fw-bold my-2">Grade<span>Point</span></h1>
+            <h1 class="fs-2 color-black text-center fw-bold my-4">Grade<span class="fs-3 text-success">Point</span></h1>
+
+            <input type="text" name="studentgrade" id="studentgrade" class="sgrade" readonly>
+            <br><br>
                 <label for="entername" class="fs-5 my-1">
                     Enter Candidate Name:
                 </label>
                 <br>
-                <input type="text" id="entername" class="formi" required>
+                <input type="text" name="entername" id="entername" class="formi">
                 <br>
                 <label for="enterscore" class="fs-5 my-1">
                     Enter Score:
                 </label>
                 <br>
-                <input type="text" id="enterscore" class="formi" required>
+                <input type="text" id="enterscore" class="formi">
                 
                 <div class="b">
-                    <button class="my-2 formb" onclick="calCulate()">Cancel</button><br>
+                    <button class="my-2 formb2" onclick="clearComp()">Cancel</button><br>
                     <button class="my-2 formb" onclick="calCulate()">Get Grade</button>
                 </div>
         </div>

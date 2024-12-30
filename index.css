@@ -10,11 +10,12 @@
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(to right, #fff, #1599579b);
-    transition-duration: 3s;
+    position: relative;
+    transition-duration: 10s;
 }
 
 .wrapper:hover{
-    background-image: linear-gradient(to right, #159957, #0e6efd);
+    background-image: linear-gradient(to right, #1599579b, #fff);
 }
 
 nav {
@@ -29,8 +30,81 @@ nav {
     border: 5px linear-gradient(to right, #159957, #fff) solid;
     box-shadow: #ffffffa2 5px 5px 5px 5px;
     border-radius: 10%;
+    position: relative;
+    z-index: 1000;
 }
 
+label {
+    margin: 0 10%;
+}
+
+.sgrade {
+    width: 80%;
+    margin: 0 10%;
+    height: 80px;
+    font-size: 40px;
+    border: none;
+    border-radius: 10px;
+    color: #000;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.formi {
+    width: 80%;
+    margin: 0 10%;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: #000;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.formi:focus {
+    outline: none;
+    background-color: transparent;
+}
+
+.formb{
+    width: 80%;
+    margin: 20px 10%;
+    height: 50px;
+    background-image: linear-gradient(to right, #0aee43c2, #1599579b);
+    border: 0px;
+    border-radius: 10px;
+    transition-duration: 3s;
+    font-size: 16px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.formb:hover{
+    width: 60%;
+    height: 50px;
+    background-image: linear-gradient(to right, #1599579b, #0aee43c2);
+    border: 0px;
+}
+
+.formb2{
+    width: 80%;
+    margin: 20px 10%;
+    height: 50px;
+    background-image: linear-gradient(to right, #000000b7, #1599579b);
+    border: 0px;
+    border-radius: 10px;
+    transition-duration: 3s;
+    font-size: 16px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.formb2:hover{
+    width: 60%;
+    height: 50px;
+    background-image: linear-gradient(to right, #1599579b, #000000b7);
+    border: 0px;
+}
 /* Codes for the floating boxes animation */
 .objects {
     background: linear-gradient(to right, #159957, #155799);
