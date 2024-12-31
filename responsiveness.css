@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.xtra {
+    display: none;
+}
+
+/* New Div
+.xtra{
+    display: block;
+    align-items: center;
+}
+
+.dropd{
+    width: 30px;
+    height: 30px;
+}
+
+.newdiv{
+    display: none;
+    width: 150px;
+}
+
+.xtra:hover .newdiv{
+    display: block;
+    position: absolute;
+    left: 60%;
+    top: 5%;
+    background-color: antiquewhite;
+}
+
+.newul{
+    display: block;
+    list-style: none;
+    margin: 10px;
+}
+
+.qli{
+    width: 100%;
+    border-bottom: 1px #000 solid;
+    text-align: left;
+    transition-duration: 1s;
+    color: blue;
+}
+
+.qli:hover{
+    color: red;
+} */
