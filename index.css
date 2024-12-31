@@ -94,8 +94,13 @@
     background-image: linear-gradient(to right, #1599579b, #fff);
 }
 
-nav {
+.mainnav {
     background-color: transparent;
+    justify-content: center;
+}
+
+.xtra {
+    display: none;
 }
 
 .formwrap {

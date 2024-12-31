@@ -8,43 +8,49 @@ var aSound = new Audio("audios/applause.mp3");
 
     function F9()
         {
+            stopAllSounds();
             studentgrade.value = 'FAIL - F9🥴';
-            fSound.pause(); fSound.currentTime = 0; fSound.play();
+            fSound.play();
             studentgrade.style.color = "red";
         }
 
     function E8()
         {
+            stopAllSounds();
             studentgrade.value = 'E - Pass😔';
-            eSound.pause(); eSound.currentTime = 0;eSound.play();
+            eSound.play();
             studentgrade.style.color = "crimson";
         }
 
     function D7()
         {
+            stopAllSounds();
             studentgrade.value = 'D - Average😬';
-            dSound.pause(); dSound.currentTime = 0;dSound.play();
+            dSound.play();
             studentgrade.style.color = "orange";
         }
 
     function C4()
         {
+            stopAllSounds();
             studentgrade.value = 'C - Credit🤔';
-            cSound.pause(); cSound.currentTime = 0;cSound.play();
+            cSound.play();
             studentgrade.style.color = "chartreuse";
         }
 
     function B2()
         {
+            stopAllSounds();
             studentgrade.value = 'B - Good🙂';
-            bSound.pause(); bSound.currentTime = 0;bSound.play();
+            bSound.play();
             studentgrade.style.color = "green";
         }
 
     function A1()
         {
+            stopAllSounds();
             studentgrade.value = 'A - Excellent😀';
-            aSound.pause(); aSound.currentTime = 0;aSound.play();
+            aSound.play();
             studentgrade.style.color = "green";
         }
     //End of Functions declaration
@@ -99,6 +105,11 @@ function clearComp()
             entername.value = "";
             enterscore.value = "";
             studentgrade.value = "";
+            stopAllSounds();
+        }
+
+function stopAllSounds()
+        {
             fSound.pause(); fSound.currentTime = 0;
             eSound.pause(); eSound.currentTime = 0;
             dSound.pause(); dSound.currentTime = 0;
