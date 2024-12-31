@@ -4,6 +4,81 @@
     box-sizing: border-box;
 }
 
+/* Top-to-Bottom Floating Boxes Container */
+.objects-down {
+    background: linear-gradient(to right, #155799, #159957);
+    width: 100%;
+    height: 100%;
+}
+
+/* Top-to-Bottom Floating Boxes */
+.box-down {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.box-down li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    background: #000;
+    animation: animate-down 20s linear infinite;
+    top: -150px;
+    border-radius: 70%;
+}
+
+/* Sizes and Positions for Boxes */
+.box-down li:nth-child(1) {
+    left: 10%;
+    width: 120px;
+    height: 120px;
+    animation-delay: 0s;
+}
+
+.box-down li:nth-child(2) {
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 2s;
+}
+
+.box-down li:nth-child(3) {
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    animation-delay: 4s;
+}
+
+.box-down li:nth-child(4) {
+    left: 75%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 6s;
+}
+
+.box-down li:nth-child(5) {
+    left: 90%;
+    width: 70px;
+    height: 70px;
+    animation-delay: 8s;
+}
+
+/* Keyframe Animation for Top-to-Bottom Movement */
+@keyframes animate-down {
+    0% {
+        transform: translateY(0) scale(0);
+    }
+
+    100% {
+        transform: translateY(800px) scale(2);
+        opacity: 0;
+    }
+}
+
 .wrapper {
     margin-right: 0;
     margin-left: 0;
@@ -27,7 +102,7 @@ nav {
     height: 500px;
     margin: 10% 25%;
     background-color: #fff;
-    border: 5px linear-gradient(to right, #159957, #fff) solid;
+    border: 5px solid #159957;
     box-shadow: #ffffffa2 5px 5px 5px 5px;
     border-radius: 10%;
     position: relative;
@@ -210,3 +285,4 @@ label {
         opacity: 0;
     }
 }
+
