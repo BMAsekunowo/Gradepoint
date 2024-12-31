@@ -50,3 +50,9 @@
     color: red;
 } */
 
+@media screen and (min-width: 350px) and (max-width: 480px) {
+    .wrapper {
+        width: 100%;
+        height: auto;
+    }
+}
