@@ -97,6 +97,8 @@
 .mainnav {
     background-color: transparent;
     justify-content: center;
+    width: 90%;
+    margin: 0 5%;
     padding: 20px 20px;
 }
 
@@ -117,7 +119,7 @@
     box-shadow: #ffffffa2 5px 5px 5px 5px;
     border-radius: 10%;
     position: relative;
-    z-index: 1000;
+    z-index: 800;
 }
 
 label {

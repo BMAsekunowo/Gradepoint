@@ -9,11 +9,13 @@
 @media screen and (min-width: 350px) and (max-width: 480px) {
     .wrapper {
         width: 100%;
-        height: 100svh;
+        height: 100svh ;
     }
 
     .mainnav{
         justify-content: right;
+        width: 95%;
+        margin: 0 2.5%;
     }
 
    .mainul{
@@ -23,6 +25,7 @@
     .xtra{
         display: block;
         align-items: right;
+        z-index: 1000;
     }
     
     .dropd{
@@ -33,6 +36,7 @@
     .newdiv{
         display: none;
         width: 150px;
+        z-index: 1000;
     }
     
     .xtra:hover .newdiv{
@@ -40,7 +44,7 @@
         position: absolute;
         left: 60%;
         top: 5%;
-        background-color: antiquewhite;
+        background-color: #fff;
     }
     
     .newul{
@@ -54,15 +58,15 @@
         border-bottom: 1px #000 solid;
         text-align: left;
         transition-duration: 1s;
-        color: blue;
+        color: #000;
     }
     
     .qli:hover{
-        color: red;
+        color: #159957;
     }
 
     .formwrap {
-        width: 95%;
+        width: 100%;
         margin: 10% 2.5%;
     }
 }
