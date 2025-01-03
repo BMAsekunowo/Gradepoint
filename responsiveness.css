@@ -34,9 +34,9 @@
     }
 
     .formwrap {
-        width: 90%;
-        margin: 5% 5%;
-        height: auto;
+        width: 95%;
+        margin: 5% 2.5%;
+        height: 370px;
         padding: 10px;
         border-radius: 8%;
     }
@@ -46,18 +46,33 @@
     }
 
     .sgrade {
-        height: 60px;
-        font-size: 24px;
+        height: 30px;
+        font-size: 18px;
+        margin: 0 10%;
     }
 
     .formi {
-        height: 35px;
+        height: 25px;
         font-size: 14px;
     }
 
     .formb, .formb2 {
-        height: 40px;
+        height: 22px;
         font-size: 14px;
+    }
+
+    .formb:hover {
+        width: 60%;
+        height: 30px;
+        background-image: linear-gradient(to right, #1599579b, #0aee43c2);
+        border: 0px;
+    }
+
+    .formb2:hover{
+        width: 60%;
+        height: 30px;
+        background-image: linear-gradient(to right, #1599579b, #000000b7);
+        border: 0px;
     }
 
     .box, .box-down {
@@ -144,6 +159,11 @@
     .formwrap {
         width: 95%;
         margin: 10% 2.5%;
+    }
+
+    .sgrade {
+        height: 60px;
+        font-size: 26px;
     }
 
     .box {
